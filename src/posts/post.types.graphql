@@ -1,0 +1,26 @@
+#import User from "../users/post.types.graphql"
+
+type Post {
+  # author: User,
+  createdAt: String,
+  id: ID!,
+  title: String!,
+  slug: String!,
+  updatedAt: String
+}
+
+type Query {
+  allPosts: [Post]
+  post(slug: String!): Post
+}
+
+type Mutation {
+  createPost(title: String!, slug: String!): Post
+  updatePost(
+    # author: User,
+    title: String,
+    slug: String,
+    updatedAt: String
+  ): Post
+  deletePost(slug: String!): Post
+}
