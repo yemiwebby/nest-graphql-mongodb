@@ -45,3 +45,26 @@ FIND_COMMAND_LATER_AND_UPDATE_README!!!!!!!!!!
 
 I will try to Docker-ize this repo when time slows down. Ha, jokes. I have nothing but time. I just hate setting up Docker. PR, pretty please? :D
 
+### GraphQL Starter
+
+A simple mutation to get you started.
+```graphql
+mutation {
+  createUser(
+    firstName: "John",
+    lastName: "Doe",
+    username: "johndoe"
+  ) {
+    username
+  }
+}
+```
+
+A simple query to verify that you have indeed started.
+```graphql
+{
+  allUsers {
+    username
+  }
+}
+```
