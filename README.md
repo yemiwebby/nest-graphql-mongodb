@@ -7,7 +7,7 @@ Clone the repo using SSH.
 git clone git@github.com:iamclaytonray/nest-graphql-mongodb.git blog
 ```
 
-- or -
+-- or --
 
 Clone the repo using HTTPS.
 ```sh
