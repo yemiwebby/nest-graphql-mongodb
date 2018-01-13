@@ -38,9 +38,9 @@ Unix/Mac:
 mongo
 ```
 
-Windows:
+Windows: (Not sure if this works. Shoot a PR if you know the real command!)
 ```sh
-FIND_COMMAND_LATER_AND_UPDATE_README!!!!!!!!!!
+mongod --port 27017 --dbpath "C:\data\db"
 ```
 
 I will try to Docker-ize this repo when time slows down. Ha, jokes. I have nothing but time. I just hate setting up Docker. PR, pretty please? :D
